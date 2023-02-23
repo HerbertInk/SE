@@ -1,0 +1,639 @@
+[2022-06-05T22:21:26.630607 14035] === CCACHE 4.2 STARTED =========================================
+[2022-06-05T22:21:26.630607 14038] === CCACHE 4.2 STARTED =========================================
+[2022-06-05T22:21:26.630607 14035] Config: (default) absolute_paths_in_stderr = false
+[2022-06-05T22:21:26.630607 14035] Config: (default) base_dir = 
+[2022-06-05T22:21:26.630607 14035] Config: (environment) cache_dir = /home/ink/.cache/Nuitka/ccache
+[2022-06-05T22:21:26.630607 14035] Config: (default) compiler = 
+[2022-06-05T22:21:26.630607 14035] Config: (default) compiler_check = mtime
+[2022-06-05T22:21:26.630607 14035] Config: (default) compiler_type = auto
+[2022-06-05T22:21:26.630607 14035] Config: (default) compression = true
+[2022-06-05T22:21:26.630607 14035] Config: (default) compression_level = 0
+[2022-06-05T22:21:26.630607 14035] Config: (default) cpp_extension = 
+[2022-06-05T22:21:26.630607 14035] Config: (default) debug = false
+[2022-06-05T22:21:26.630607 14035] Config: (default) debug_dir = 
+[2022-06-05T22:21:26.630607 14035] Config: (default) depend_mode = false
+[2022-06-05T22:21:26.630607 14035] Config: (default) direct_mode = true
+[2022-06-05T22:21:26.630607 14035] Config: (default) disable = false
+[2022-06-05T22:21:26.630607 14035] Config: (default) extra_files_to_hash = 
+[2022-06-05T22:21:26.630607 14035] Config: (default) file_clone = false
+[2022-06-05T22:21:26.630607 14035] Config: (default) hard_link = false
+[2022-06-05T22:21:26.630607 14035] Config: (default) hash_dir = true
+[2022-06-05T22:21:26.630607 14035] Config: (default) ignore_headers_in_manifest = 
+[2022-06-05T22:21:26.630607 14035] Config: (default) ignore_options = 
+[2022-06-05T22:21:26.630607 14035] Config: (default) inode_cache = false
+[2022-06-05T22:21:26.630607 14035] Config: (default) keep_comments_cpp = false
+[2022-06-05T22:21:26.630607 14035] Config: (default) limit_multiple = 0.8
+[2022-06-05T22:21:26.630607 14035] Config: (environment) log_file = /home/ink/ForPy/inkprint.build/ccache-14026.txt
+[2022-06-05T22:21:26.630607 14035] Config: (default) max_files = 0
+[2022-06-05T22:21:26.630607 14035] Config: (default) max_size = 5.0G
+[2022-06-05T22:21:26.630607 14035] Config: (default) path = 
+[2022-06-05T22:21:26.630607 14035] Config: (default) pch_external_checksum = false
+[2022-06-05T22:21:26.630607 14035] Config: (default) prefix_command = 
+[2022-06-05T22:21:26.630607 14035] Config: (default) prefix_command_cpp = 
+[2022-06-05T22:21:26.630607 14035] Config: (default) read_only = false
+[2022-06-05T22:21:26.630607 14035] Config: (default) read_only_direct = false
+[2022-06-05T22:21:26.630607 14035] Config: (default) recache = false
+[2022-06-05T22:21:26.630607 14035] Config: (default) run_second_cpp = true
+[2022-06-05T22:21:26.630607 14035] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-06-05T22:21:26.630607 14035] Config: (default) stats = true
+[2022-06-05T22:21:26.630607 14035] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-06-05T22:21:26.630607 14035] Config: (default) umask = 
+[2022-06-05T22:21:26.630766 14035] Command line: /usr/bin/ccache /usr/bin/gcc -o __constants.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src __constants.c
+[2022-06-05T22:21:26.630607 14038] Config: (default) absolute_paths_in_stderr = false
+[2022-06-05T22:21:26.630607 14038] Config: (default) base_dir = 
+[2022-06-05T22:21:26.630607 14038] Config: (environment) cache_dir = /home/ink/.cache/Nuitka/ccache
+[2022-06-05T22:21:26.630607 14038] Config: (default) compiler = 
+[2022-06-05T22:21:26.630607 14038] Config: (default) compiler_check = mtime
+[2022-06-05T22:21:26.630607 14038] Config: (default) compiler_type = auto
+[2022-06-05T22:21:26.630607 14038] Config: (default) compression = true
+[2022-06-05T22:21:26.630607 14038] Config: (default) compression_level = 0
+[2022-06-05T22:21:26.630607 14038] Config: (default) cpp_extension = 
+[2022-06-05T22:21:26.630607 14038] Config: (default) debug = false
+[2022-06-05T22:21:26.630607 14038] Config: (default) debug_dir = 
+[2022-06-05T22:21:26.630607 14038] Config: (default) depend_mode = false
+[2022-06-05T22:21:26.630607 14038] Config: (default) direct_mode = true
+[2022-06-05T22:21:26.630607 14038] Config: (default) disable = false
+[2022-06-05T22:21:26.630607 14038] Config: (default) extra_files_to_hash = 
+[2022-06-05T22:21:26.630607 14038] Config: (default) file_clone = false
+[2022-06-05T22:21:26.630607 14038] Config: (default) hard_link = false
+[2022-06-05T22:21:26.630607 14038] Config: (default) hash_dir = true
+[2022-06-05T22:21:26.630607 14038] Config: (default) ignore_headers_in_manifest = 
+[2022-06-05T22:21:26.630607 14038] Config: (default) ignore_options = 
+[2022-06-05T22:21:26.630607 14038] Config: (default) inode_cache = false
+[2022-06-05T22:21:26.630607 14038] Config: (default) keep_comments_cpp = false
+[2022-06-05T22:21:26.630607 14038] Config: (default) limit_multiple = 0.8
+[2022-06-05T22:21:26.630607 14038] Config: (environment) log_file = /home/ink/ForPy/inkprint.build/ccache-14026.txt
+[2022-06-05T22:21:26.630607 14038] Config: (default) max_files = 0
+[2022-06-05T22:21:26.630607 14038] Config: (default) max_size = 5.0G
+[2022-06-05T22:21:26.630607 14038] Config: (default) path = 
+[2022-06-05T22:21:26.630607 14038] Config: (default) pch_external_checksum = false
+[2022-06-05T22:21:26.630607 14038] Config: (default) prefix_command = 
+[2022-06-05T22:21:26.630607 14038] Config: (default) prefix_command_cpp = 
+[2022-06-05T22:21:26.630607 14038] Config: (default) read_only = false
+[2022-06-05T22:21:26.630607 14038] Config: (default) read_only_direct = false
+[2022-06-05T22:21:26.630607 14038] Config: (default) recache = false
+[2022-06-05T22:21:26.630607 14038] Config: (default) run_second_cpp = true
+[2022-06-05T22:21:26.630607 14038] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-06-05T22:21:26.630607 14038] Config: (default) stats = true
+[2022-06-05T22:21:26.630607 14038] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-06-05T22:21:26.630607 14038] Config: (default) umask = 
+[2022-06-05T22:21:26.630766 14038] Command line: /usr/bin/ccache /usr/bin/gcc -o __helpers.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src __helpers.c
+[2022-06-05T22:21:26.630778 14035] Hostname: Ink
+[2022-06-05T22:21:26.630792 14038] Hostname: Ink
+[2022-06-05T22:21:26.630797 14035] Working directory: /home/ink/ForPy/inkprint.build
+[2022-06-05T22:21:26.630800 14038] Working directory: /home/ink/ForPy/inkprint.build
+[2022-06-05T22:21:26.630804 14035] Compiler type: gcc
+[2022-06-05T22:21:26.630808 14038] Compiler type: gcc
+[2022-06-05T22:21:26.630927 14035] Source file: __constants.c
+[2022-06-05T22:21:26.630927 14038] Source file: __helpers.c
+[2022-06-05T22:21:26.630936 14035] Object file: __constants.o
+[2022-06-05T22:21:26.630939 14038] Object file: __helpers.o
+[2022-06-05T22:21:26.630962 14035] Trying direct lookup
+[2022-06-05T22:21:26.630964 14038] Trying direct lookup
+[2022-06-05T22:21:26.631034 14035] No manifest with name dd55gva52jhcruaikheqcinhjr1hqe6ie in the cache
+[2022-06-05T22:21:26.631033 14038] No manifest with name ff9c4138k025f8gr48r09u2mu3c6jin6u in the cache
+[2022-06-05T22:21:26.631225 14035] Running preprocessor
+[2022-06-05T22:21:26.631227 14038] Running preprocessor
+[2022-06-05T22:21:26.631243 14035] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src -E __constants.c
+[2022-06-05T22:21:26.631245 14038] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src -E __helpers.c
+[2022-06-05T22:21:27.573768 14038] Got result name from preprocessor
+[2022-06-05T22:21:27.573877 14038] No result with name 4686d7kkme7b4coio6jje4fkjlc6u89v4 in the cache
+[2022-06-05T22:21:27.573897 14038] Running real compiler
+[2022-06-05T22:21:27.573986 14038] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src -c -fdiagnostics-color -o __helpers.o __helpers.c
+[2022-06-05T22:21:27.578328 14035] Got result name from preprocessor
+[2022-06-05T22:21:27.578416 14035] No result with name 55easfppui9v8h9rcntkcas58b5ffrfea in the cache
+[2022-06-05T22:21:27.578429 14035] Running real compiler
+[2022-06-05T22:21:27.578483 14035] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src -c -fdiagnostics-color -o __constants.o __constants.c
+[2022-06-05T22:21:27.743743 14038] Using default compression level 1
+[2022-06-05T22:21:27.743878 14038] Storing result __helpers.o
+[2022-06-05T22:21:27.743896 14038] Storing embedded file #0 .o (2544 bytes) from __helpers.o
+[2022-06-05T22:21:27.744182 14038] Stored in cache: /home/ink/.cache/Nuitka/ccache/4/6/86d7kkme7b4coio6jje4fkjlc6u89v4R
+[2022-06-05T22:21:27.744342 14038] Adding result name to /home/ink/.cache/Nuitka/ccache/f/f/9c4138k025f8gr48r09u2mu3c6jin6uM
+[2022-06-05T22:21:27.745483 14038] Using default compression level 1
+[2022-06-05T22:21:27.746283 14038] Result: cache miss
+[2022-06-05T22:21:27.746414 14038] Acquired lock /home/ink/.cache/Nuitka/ccache/f/stats.lock
+[2022-06-05T22:21:27.746744 14038] Releasing lock /home/ink/.cache/Nuitka/ccache/f/stats.lock
+[2022-06-05T22:21:27.746811 14038] Unlink /home/ink/.cache/Nuitka/ccache/f/stats.lock
+[2022-06-05T22:21:27.746889 14038] Acquired lock /home/ink/.cache/Nuitka/ccache/4/stats.lock
+[2022-06-05T22:21:27.747066 14038] Releasing lock /home/ink/.cache/Nuitka/ccache/4/stats.lock
+[2022-06-05T22:21:27.747116 14038] Unlink /home/ink/.cache/Nuitka/ccache/4/stats.lock
+[2022-06-05T22:21:27.747149 14038] Unlink /run/user/1000/ccache-tmp/tmp.stderr.nPX4xE
+[2022-06-05T22:21:27.747163 14038] Unlink /run/user/1000/ccache-tmp/tmp.stdout.9jmieI
+[2022-06-05T22:21:27.747177 14038] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stderr.8PKLmI
+[2022-06-05T22:21:27.747189 14038] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.PWtjrI.i
+[2022-06-05T22:21:27.747338 14038] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.PWtjrI
+[2022-06-05T22:21:27.772450 14051] === CCACHE 4.2 STARTED =========================================
+[2022-06-05T22:21:27.772450 14051] Config: (default) absolute_paths_in_stderr = false
+[2022-06-05T22:21:27.772450 14051] Config: (default) base_dir = 
+[2022-06-05T22:21:27.772450 14051] Config: (environment) cache_dir = /home/ink/.cache/Nuitka/ccache
+[2022-06-05T22:21:27.772450 14051] Config: (default) compiler = 
+[2022-06-05T22:21:27.772450 14051] Config: (default) compiler_check = mtime
+[2022-06-05T22:21:27.772450 14051] Config: (default) compiler_type = auto
+[2022-06-05T22:21:27.772450 14051] Config: (default) compression = true
+[2022-06-05T22:21:27.772450 14051] Config: (default) compression_level = 0
+[2022-06-05T22:21:27.772450 14051] Config: (default) cpp_extension = 
+[2022-06-05T22:21:27.772450 14051] Config: (default) debug = false
+[2022-06-05T22:21:27.772450 14051] Config: (default) debug_dir = 
+[2022-06-05T22:21:27.772450 14051] Config: (default) depend_mode = false
+[2022-06-05T22:21:27.772450 14051] Config: (default) direct_mode = true
+[2022-06-05T22:21:27.772450 14051] Config: (default) disable = false
+[2022-06-05T22:21:27.772450 14051] Config: (default) extra_files_to_hash = 
+[2022-06-05T22:21:27.772450 14051] Config: (default) file_clone = false
+[2022-06-05T22:21:27.772450 14051] Config: (default) hard_link = false
+[2022-06-05T22:21:27.772450 14051] Config: (default) hash_dir = true
+[2022-06-05T22:21:27.772450 14051] Config: (default) ignore_headers_in_manifest = 
+[2022-06-05T22:21:27.772450 14051] Config: (default) ignore_options = 
+[2022-06-05T22:21:27.772450 14051] Config: (default) inode_cache = false
+[2022-06-05T22:21:27.772450 14051] Config: (default) keep_comments_cpp = false
+[2022-06-05T22:21:27.772450 14051] Config: (default) limit_multiple = 0.8
+[2022-06-05T22:21:27.772450 14051] Config: (environment) log_file = /home/ink/ForPy/inkprint.build/ccache-14026.txt
+[2022-06-05T22:21:27.772450 14051] Config: (default) max_files = 0
+[2022-06-05T22:21:27.772450 14051] Config: (default) max_size = 5.0G
+[2022-06-05T22:21:27.772450 14051] Config: (default) path = 
+[2022-06-05T22:21:27.772450 14051] Config: (default) pch_external_checksum = false
+[2022-06-05T22:21:27.772450 14051] Config: (default) prefix_command = 
+[2022-06-05T22:21:27.772450 14051] Config: (default) prefix_command_cpp = 
+[2022-06-05T22:21:27.772450 14051] Config: (default) read_only = false
+[2022-06-05T22:21:27.772450 14051] Config: (default) read_only_direct = false
+[2022-06-05T22:21:27.772450 14051] Config: (default) recache = false
+[2022-06-05T22:21:27.772450 14051] Config: (default) run_second_cpp = true
+[2022-06-05T22:21:27.772450 14051] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-06-05T22:21:27.772450 14051] Config: (default) stats = true
+[2022-06-05T22:21:27.772450 14051] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-06-05T22:21:27.772450 14051] Config: (default) umask = 
+[2022-06-05T22:21:27.772602 14051] Command line: /usr/bin/ccache /usr/bin/gcc -o __loader.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src __loader.c
+[2022-06-05T22:21:27.772638 14051] Hostname: Ink
+[2022-06-05T22:21:27.772649 14051] Working directory: /home/ink/ForPy/inkprint.build
+[2022-06-05T22:21:27.772657 14051] Compiler type: gcc
+[2022-06-05T22:21:27.772791 14051] Source file: __loader.c
+[2022-06-05T22:21:27.772803 14051] Object file: __loader.o
+[2022-06-05T22:21:27.772831 14051] Trying direct lookup
+[2022-06-05T22:21:27.772921 14051] No manifest with name bace6dki90g1fsb0nl77ic3fh4jdbqram in the cache
+[2022-06-05T22:21:27.773005 14051] Running preprocessor
+[2022-06-05T22:21:27.773021 14051] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src -E __loader.c
+[2022-06-05T22:21:27.774071 14035] Using default compression level 1
+[2022-06-05T22:21:27.774210 14035] Storing result __constants.o
+[2022-06-05T22:21:27.774228 14035] Storing embedded file #0 .o (14016 bytes) from __constants.o
+[2022-06-05T22:21:27.774578 14035] Stored in cache: /home/ink/.cache/Nuitka/ccache/5/5/easfppui9v8h9rcntkcas58b5ffrfeaR
+[2022-06-05T22:21:27.774721 14035] Adding result name to /home/ink/.cache/Nuitka/ccache/d/d/55gva52jhcruaikheqcinhjr1hqe6ieM
+[2022-06-05T22:21:27.775828 14035] Using default compression level 1
+[2022-06-05T22:21:27.776479 14035] Result: cache miss
+[2022-06-05T22:21:27.776568 14035] Acquired lock /home/ink/.cache/Nuitka/ccache/d/stats.lock
+[2022-06-05T22:21:27.776766 14035] Releasing lock /home/ink/.cache/Nuitka/ccache/d/stats.lock
+[2022-06-05T22:21:27.776810 14035] Unlink /home/ink/.cache/Nuitka/ccache/d/stats.lock
+[2022-06-05T22:21:27.776845 14035] Acquired lock /home/ink/.cache/Nuitka/ccache/5/stats.lock
+[2022-06-05T22:21:27.776939 14035] Releasing lock /home/ink/.cache/Nuitka/ccache/5/stats.lock
+[2022-06-05T22:21:27.776969 14035] Unlink /home/ink/.cache/Nuitka/ccache/5/stats.lock
+[2022-06-05T22:21:27.776991 14035] Unlink /run/user/1000/ccache-tmp/tmp.stderr.oYou9t
+[2022-06-05T22:21:27.777002 14035] Unlink /run/user/1000/ccache-tmp/tmp.stdout.BegFBr
+[2022-06-05T22:21:27.777012 14035] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stderr.DAikxr
+[2022-06-05T22:21:27.777022 14035] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.sRtN8r.i
+[2022-06-05T22:21:27.777150 14035] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.sRtN8r
+[2022-06-05T22:21:27.798081 14056] === CCACHE 4.2 STARTED =========================================
+[2022-06-05T22:21:27.798081 14056] Config: (default) absolute_paths_in_stderr = false
+[2022-06-05T22:21:27.798081 14056] Config: (default) base_dir = 
+[2022-06-05T22:21:27.798081 14056] Config: (environment) cache_dir = /home/ink/.cache/Nuitka/ccache
+[2022-06-05T22:21:27.798081 14056] Config: (default) compiler = 
+[2022-06-05T22:21:27.798081 14056] Config: (default) compiler_check = mtime
+[2022-06-05T22:21:27.798081 14056] Config: (default) compiler_type = auto
+[2022-06-05T22:21:27.798081 14056] Config: (default) compression = true
+[2022-06-05T22:21:27.798081 14056] Config: (default) compression_level = 0
+[2022-06-05T22:21:27.798081 14056] Config: (default) cpp_extension = 
+[2022-06-05T22:21:27.798081 14056] Config: (default) debug = false
+[2022-06-05T22:21:27.798081 14056] Config: (default) debug_dir = 
+[2022-06-05T22:21:27.798081 14056] Config: (default) depend_mode = false
+[2022-06-05T22:21:27.798081 14056] Config: (default) direct_mode = true
+[2022-06-05T22:21:27.798081 14056] Config: (default) disable = false
+[2022-06-05T22:21:27.798081 14056] Config: (default) extra_files_to_hash = 
+[2022-06-05T22:21:27.798081 14056] Config: (default) file_clone = false
+[2022-06-05T22:21:27.798081 14056] Config: (default) hard_link = false
+[2022-06-05T22:21:27.798081 14056] Config: (default) hash_dir = true
+[2022-06-05T22:21:27.798081 14056] Config: (default) ignore_headers_in_manifest = 
+[2022-06-05T22:21:27.798081 14056] Config: (default) ignore_options = 
+[2022-06-05T22:21:27.798081 14056] Config: (default) inode_cache = false
+[2022-06-05T22:21:27.798081 14056] Config: (default) keep_comments_cpp = false
+[2022-06-05T22:21:27.798081 14056] Config: (default) limit_multiple = 0.8
+[2022-06-05T22:21:27.798081 14056] Config: (environment) log_file = /home/ink/ForPy/inkprint.build/ccache-14026.txt
+[2022-06-05T22:21:27.798081 14056] Config: (default) max_files = 0
+[2022-06-05T22:21:27.798081 14056] Config: (default) max_size = 5.0G
+[2022-06-05T22:21:27.798081 14056] Config: (default) path = 
+[2022-06-05T22:21:27.798081 14056] Config: (default) pch_external_checksum = false
+[2022-06-05T22:21:27.798081 14056] Config: (default) prefix_command = 
+[2022-06-05T22:21:27.798081 14056] Config: (default) prefix_command_cpp = 
+[2022-06-05T22:21:27.798081 14056] Config: (default) read_only = false
+[2022-06-05T22:21:27.798081 14056] Config: (default) read_only_direct = false
+[2022-06-05T22:21:27.798081 14056] Config: (default) recache = false
+[2022-06-05T22:21:27.798081 14056] Config: (default) run_second_cpp = true
+[2022-06-05T22:21:27.798081 14056] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-06-05T22:21:27.798081 14056] Config: (default) stats = true
+[2022-06-05T22:21:27.798081 14056] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-06-05T22:21:27.798081 14056] Config: (default) umask = 
+[2022-06-05T22:21:27.798248 14056] Command line: /usr/bin/ccache /usr/bin/gcc -o module.__main__.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src module.__main__.c
+[2022-06-05T22:21:27.798286 14056] Hostname: Ink
+[2022-06-05T22:21:27.798298 14056] Working directory: /home/ink/ForPy/inkprint.build
+[2022-06-05T22:21:27.798306 14056] Compiler type: gcc
+[2022-06-05T22:21:27.798441 14056] Source file: module.__main__.c
+[2022-06-05T22:21:27.798451 14056] Object file: module.__main__.o
+[2022-06-05T22:21:27.798474 14056] Trying direct lookup
+[2022-06-05T22:21:27.798668 14056] No manifest with name 7553h91m5mth0lc0taqgdgl198lainerm in the cache
+[2022-06-05T22:21:27.798764 14056] Running preprocessor
+[2022-06-05T22:21:27.798781 14056] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src -E module.__main__.c
+[2022-06-05T22:21:27.876336 14051] Got result name from preprocessor
+[2022-06-05T22:21:27.876436 14051] No result with name 30fa7t2k2grlmvdoaa7n6t088btjpbnc0 in the cache
+[2022-06-05T22:21:27.876496 14051] Running real compiler
+[2022-06-05T22:21:27.876559 14051] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src -c -fdiagnostics-color -o __loader.o __loader.c
+[2022-06-05T22:21:27.906539 14056] Got result name from preprocessor
+[2022-06-05T22:21:27.906641 14056] No result with name ce2a4n13lj8gahtqnnvn9nash8umbiapg in the cache
+[2022-06-05T22:21:27.906658 14056] Running real compiler
+[2022-06-05T22:21:27.906720 14056] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src -c -fdiagnostics-color -o module.__main__.o module.__main__.c
+[2022-06-05T22:21:28.006970 14051] Using default compression level 1
+[2022-06-05T22:21:28.007109 14051] Storing result __loader.o
+[2022-06-05T22:21:28.007129 14051] Storing embedded file #0 .o (8880 bytes) from __loader.o
+[2022-06-05T22:21:28.007505 14051] Stored in cache: /home/ink/.cache/Nuitka/ccache/3/0/fa7t2k2grlmvdoaa7n6t088btjpbnc0R
+[2022-06-05T22:21:28.007737 14051] Adding result name to /home/ink/.cache/Nuitka/ccache/b/a/ce6dki90g1fsb0nl77ic3fh4jdbqramM
+[2022-06-05T22:21:28.008642 14051] Using default compression level 1
+[2022-06-05T22:21:28.009317 14051] Result: cache miss
+[2022-06-05T22:21:28.009432 14051] Acquired lock /home/ink/.cache/Nuitka/ccache/b/stats.lock
+[2022-06-05T22:21:28.009770 14051] Releasing lock /home/ink/.cache/Nuitka/ccache/b/stats.lock
+[2022-06-05T22:21:28.009878 14051] Unlink /home/ink/.cache/Nuitka/ccache/b/stats.lock
+[2022-06-05T22:21:28.009951 14051] Acquired lock /home/ink/.cache/Nuitka/ccache/3/stats.lock
+[2022-06-05T22:21:28.010132 14051] Releasing lock /home/ink/.cache/Nuitka/ccache/3/stats.lock
+[2022-06-05T22:21:28.010181 14051] Unlink /home/ink/.cache/Nuitka/ccache/3/stats.lock
+[2022-06-05T22:21:28.010214 14051] Unlink /run/user/1000/ccache-tmp/tmp.stderr.t80FlD
+[2022-06-05T22:21:28.010229 14051] Unlink /run/user/1000/ccache-tmp/tmp.stdout.a28EWH
+[2022-06-05T22:21:28.010244 14051] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stderr.g9fiyG
+[2022-06-05T22:21:28.010258 14051] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.nQKrVH.i
+[2022-06-05T22:21:28.010371 14051] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.nQKrVH
+[2022-06-05T22:21:28.038404 14067] === CCACHE 4.2 STARTED =========================================
+[2022-06-05T22:21:28.038404 14067] Config: (default) absolute_paths_in_stderr = false
+[2022-06-05T22:21:28.038404 14067] Config: (default) base_dir = 
+[2022-06-05T22:21:28.038404 14067] Config: (environment) cache_dir = /home/ink/.cache/Nuitka/ccache
+[2022-06-05T22:21:28.038404 14067] Config: (default) compiler = 
+[2022-06-05T22:21:28.038404 14067] Config: (default) compiler_check = mtime
+[2022-06-05T22:21:28.038404 14067] Config: (default) compiler_type = auto
+[2022-06-05T22:21:28.038404 14067] Config: (default) compression = true
+[2022-06-05T22:21:28.038404 14067] Config: (default) compression_level = 0
+[2022-06-05T22:21:28.038404 14067] Config: (default) cpp_extension = 
+[2022-06-05T22:21:28.038404 14067] Config: (default) debug = false
+[2022-06-05T22:21:28.038404 14067] Config: (default) debug_dir = 
+[2022-06-05T22:21:28.038404 14067] Config: (default) depend_mode = false
+[2022-06-05T22:21:28.038404 14067] Config: (default) direct_mode = true
+[2022-06-05T22:21:28.038404 14067] Config: (default) disable = false
+[2022-06-05T22:21:28.038404 14067] Config: (default) extra_files_to_hash = 
+[2022-06-05T22:21:28.038404 14067] Config: (default) file_clone = false
+[2022-06-05T22:21:28.038404 14067] Config: (default) hard_link = false
+[2022-06-05T22:21:28.038404 14067] Config: (default) hash_dir = true
+[2022-06-05T22:21:28.038404 14067] Config: (default) ignore_headers_in_manifest = 
+[2022-06-05T22:21:28.038404 14067] Config: (default) ignore_options = 
+[2022-06-05T22:21:28.038404 14067] Config: (default) inode_cache = false
+[2022-06-05T22:21:28.038404 14067] Config: (default) keep_comments_cpp = false
+[2022-06-05T22:21:28.038404 14067] Config: (default) limit_multiple = 0.8
+[2022-06-05T22:21:28.038404 14067] Config: (environment) log_file = /home/ink/ForPy/inkprint.build/ccache-14026.txt
+[2022-06-05T22:21:28.038404 14067] Config: (default) max_files = 0
+[2022-06-05T22:21:28.038404 14067] Config: (default) max_size = 5.0G
+[2022-06-05T22:21:28.038404 14067] Config: (default) path = 
+[2022-06-05T22:21:28.038404 14067] Config: (default) pch_external_checksum = false
+[2022-06-05T22:21:28.038404 14067] Config: (default) prefix_command = 
+[2022-06-05T22:21:28.038404 14067] Config: (default) prefix_command_cpp = 
+[2022-06-05T22:21:28.038404 14067] Config: (default) read_only = false
+[2022-06-05T22:21:28.038404 14067] Config: (default) read_only_direct = false
+[2022-06-05T22:21:28.038404 14067] Config: (default) recache = false
+[2022-06-05T22:21:28.038404 14067] Config: (default) run_second_cpp = true
+[2022-06-05T22:21:28.038404 14067] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-06-05T22:21:28.038404 14067] Config: (default) stats = true
+[2022-06-05T22:21:28.038404 14067] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-06-05T22:21:28.038404 14067] Config: (default) umask = 
+[2022-06-05T22:21:28.038565 14067] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/MainProgram.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src static_src/MainProgram.c
+[2022-06-05T22:21:28.038610 14067] Hostname: Ink
+[2022-06-05T22:21:28.038622 14067] Working directory: /home/ink/ForPy/inkprint.build
+[2022-06-05T22:21:28.038632 14067] Compiler type: gcc
+[2022-06-05T22:21:28.038778 14067] Source file: static_src/MainProgram.c
+[2022-06-05T22:21:28.038794 14067] Object file: static_src/MainProgram.o
+[2022-06-05T22:21:28.038825 14067] Trying direct lookup
+[2022-06-05T22:21:28.039042 14067] No manifest with name ba42tmco9jr7l0646b3icf5d1nqkvq01u in the cache
+[2022-06-05T22:21:28.039160 14067] Running preprocessor
+[2022-06-05T22:21:28.039180 14067] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src -E static_src/MainProgram.c
+[2022-06-05T22:21:28.136717 14056] Using default compression level 1
+[2022-06-05T22:21:28.136851 14056] Storing result module.__main__.o
+[2022-06-05T22:21:28.136870 14056] Storing embedded file #0 .o (58128 bytes) from module.__main__.o
+[2022-06-05T22:21:28.137587 14056] Stored in cache: /home/ink/.cache/Nuitka/ccache/c/e/2a4n13lj8gahtqnnvn9nash8umbiapgR
+[2022-06-05T22:21:28.137805 14056] Adding result name to /home/ink/.cache/Nuitka/ccache/7/5/53h91m5mth0lc0taqgdgl198lainermM
+[2022-06-05T22:21:28.139153 14056] Using default compression level 1
+[2022-06-05T22:21:28.139971 14056] Result: cache miss
+[2022-06-05T22:21:28.140076 14056] Acquired lock /home/ink/.cache/Nuitka/ccache/7/stats.lock
+[2022-06-05T22:21:28.140312 14056] Releasing lock /home/ink/.cache/Nuitka/ccache/7/stats.lock
+[2022-06-05T22:21:28.140362 14056] Unlink /home/ink/.cache/Nuitka/ccache/7/stats.lock
+[2022-06-05T22:21:28.140406 14056] Acquired lock /home/ink/.cache/Nuitka/ccache/c/stats.lock
+[2022-06-05T22:21:28.140521 14056] Releasing lock /home/ink/.cache/Nuitka/ccache/c/stats.lock
+[2022-06-05T22:21:28.140557 14056] Unlink /home/ink/.cache/Nuitka/ccache/c/stats.lock
+[2022-06-05T22:21:28.140582 14056] Unlink /run/user/1000/ccache-tmp/tmp.stderr.6IEVC1
+[2022-06-05T22:21:28.140596 14056] Unlink /run/user/1000/ccache-tmp/tmp.stdout.y4kCo2
+[2022-06-05T22:21:28.140608 14056] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stderr.F5QHr2
+[2022-06-05T22:21:28.140620 14056] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.S2Z7a3.i
+[2022-06-05T22:21:28.140772 14056] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.S2Z7a3
+[2022-06-05T22:21:28.156843 14067] Got result name from preprocessor
+[2022-06-05T22:21:28.156943 14067] No result with name f39a4n4o0g0m3tv7sbs9aqsop74ro0rv6 in the cache
+[2022-06-05T22:21:28.156959 14067] Running real compiler
+[2022-06-05T22:21:28.157020 14067] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src -c -fdiagnostics-color -o static_src/MainProgram.o static_src/MainProgram.c
+[2022-06-05T22:21:28.168888 14075] === CCACHE 4.2 STARTED =========================================
+[2022-06-05T22:21:28.168888 14075] Config: (default) absolute_paths_in_stderr = false
+[2022-06-05T22:21:28.168888 14075] Config: (default) base_dir = 
+[2022-06-05T22:21:28.168888 14075] Config: (environment) cache_dir = /home/ink/.cache/Nuitka/ccache
+[2022-06-05T22:21:28.168888 14075] Config: (default) compiler = 
+[2022-06-05T22:21:28.168888 14075] Config: (default) compiler_check = mtime
+[2022-06-05T22:21:28.168888 14075] Config: (default) compiler_type = auto
+[2022-06-05T22:21:28.168888 14075] Config: (default) compression = true
+[2022-06-05T22:21:28.168888 14075] Config: (default) compression_level = 0
+[2022-06-05T22:21:28.168888 14075] Config: (default) cpp_extension = 
+[2022-06-05T22:21:28.168888 14075] Config: (default) debug = false
+[2022-06-05T22:21:28.168888 14075] Config: (default) debug_dir = 
+[2022-06-05T22:21:28.168888 14075] Config: (default) depend_mode = false
+[2022-06-05T22:21:28.168888 14075] Config: (default) direct_mode = true
+[2022-06-05T22:21:28.168888 14075] Config: (default) disable = false
+[2022-06-05T22:21:28.168888 14075] Config: (default) extra_files_to_hash = 
+[2022-06-05T22:21:28.168888 14075] Config: (default) file_clone = false
+[2022-06-05T22:21:28.168888 14075] Config: (default) hard_link = false
+[2022-06-05T22:21:28.168888 14075] Config: (default) hash_dir = true
+[2022-06-05T22:21:28.168888 14075] Config: (default) ignore_headers_in_manifest = 
+[2022-06-05T22:21:28.168888 14075] Config: (default) ignore_options = 
+[2022-06-05T22:21:28.168888 14075] Config: (default) inode_cache = false
+[2022-06-05T22:21:28.168888 14075] Config: (default) keep_comments_cpp = false
+[2022-06-05T22:21:28.168888 14075] Config: (default) limit_multiple = 0.8
+[2022-06-05T22:21:28.168888 14075] Config: (environment) log_file = /home/ink/ForPy/inkprint.build/ccache-14026.txt
+[2022-06-05T22:21:28.168888 14075] Config: (default) max_files = 0
+[2022-06-05T22:21:28.168888 14075] Config: (default) max_size = 5.0G
+[2022-06-05T22:21:28.168888 14075] Config: (default) path = 
+[2022-06-05T22:21:28.168888 14075] Config: (default) pch_external_checksum = false
+[2022-06-05T22:21:28.168888 14075] Config: (default) prefix_command = 
+[2022-06-05T22:21:28.168888 14075] Config: (default) prefix_command_cpp = 
+[2022-06-05T22:21:28.168888 14075] Config: (default) read_only = false
+[2022-06-05T22:21:28.168888 14075] Config: (default) read_only_direct = false
+[2022-06-05T22:21:28.168888 14075] Config: (default) recache = false
+[2022-06-05T22:21:28.168888 14075] Config: (default) run_second_cpp = true
+[2022-06-05T22:21:28.168888 14075] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-06-05T22:21:28.168888 14075] Config: (default) stats = true
+[2022-06-05T22:21:28.168888 14075] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-06-05T22:21:28.168888 14075] Config: (default) umask = 
+[2022-06-05T22:21:28.169025 14075] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledCellType.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src static_src/CompiledCellType.c
+[2022-06-05T22:21:28.169062 14075] Hostname: Ink
+[2022-06-05T22:21:28.169074 14075] Working directory: /home/ink/ForPy/inkprint.build
+[2022-06-05T22:21:28.169082 14075] Compiler type: gcc
+[2022-06-05T22:21:28.169212 14075] Source file: static_src/CompiledCellType.c
+[2022-06-05T22:21:28.169224 14075] Object file: static_src/CompiledCellType.o
+[2022-06-05T22:21:28.169253 14075] Trying direct lookup
+[2022-06-05T22:21:28.169353 14075] No manifest with name 2625vj2aq8acelccqcfoaiojkc24h5pbq in the cache
+[2022-06-05T22:21:28.169449 14075] Running preprocessor
+[2022-06-05T22:21:28.169467 14075] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src -E static_src/CompiledCellType.c
+[2022-06-05T22:21:28.276107 14075] Got result name from preprocessor
+[2022-06-05T22:21:28.276215 14075] No result with name db6a9cv07uf05gej9mj96878io1pus5oc in the cache
+[2022-06-05T22:21:28.276233 14075] Running real compiler
+[2022-06-05T22:21:28.276295 14075] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src -c -fdiagnostics-color -o static_src/CompiledCellType.o static_src/CompiledCellType.c
+[2022-06-05T22:21:28.361946 14067] Using default compression level 1
+[2022-06-05T22:21:28.362101 14067] Storing result static_src/MainProgram.o
+[2022-06-05T22:21:28.362124 14067] Storing embedded file #0 .o (27912 bytes) from static_src/MainProgram.o
+[2022-06-05T22:21:28.362615 14067] Stored in cache: /home/ink/.cache/Nuitka/ccache/f/3/9a4n4o0g0m3tv7sbs9aqsop74ro0rv6R
+[2022-06-05T22:21:28.362811 14067] Adding result name to /home/ink/.cache/Nuitka/ccache/b/a/42tmco9jr7l0646b3icf5d1nqkvq01uM
+[2022-06-05T22:21:28.363962 14067] Using default compression level 1
+[2022-06-05T22:21:28.364719 14067] Result: cache miss
+[2022-06-05T22:21:28.364835 14067] Acquired lock /home/ink/.cache/Nuitka/ccache/b/stats.lock
+[2022-06-05T22:21:28.365090 14067] Releasing lock /home/ink/.cache/Nuitka/ccache/b/stats.lock
+[2022-06-05T22:21:28.365141 14067] Unlink /home/ink/.cache/Nuitka/ccache/b/stats.lock
+[2022-06-05T22:21:28.365201 14067] Acquired lock /home/ink/.cache/Nuitka/ccache/f/stats.lock
+[2022-06-05T22:21:28.365438 14067] Releasing lock /home/ink/.cache/Nuitka/ccache/f/stats.lock
+[2022-06-05T22:21:28.365487 14067] Unlink /home/ink/.cache/Nuitka/ccache/f/stats.lock
+[2022-06-05T22:21:28.365518 14067] Unlink /run/user/1000/ccache-tmp/tmp.stderr.k7u8zU
+[2022-06-05T22:21:28.365533 14067] Unlink /run/user/1000/ccache-tmp/tmp.stdout.LMCZ7R
+[2022-06-05T22:21:28.365546 14067] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stderr.YmvCqT
+[2022-06-05T22:21:28.365558 14067] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.JZQYXU.i
+[2022-06-05T22:21:28.365701 14067] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.JZQYXU
+[2022-06-05T22:21:28.503096 14075] Using default compression level 1
+[2022-06-05T22:21:28.503254 14075] Storing result static_src/CompiledCellType.o
+[2022-06-05T22:21:28.503271 14075] Storing embedded file #0 .o (35656 bytes) from static_src/CompiledCellType.o
+[2022-06-05T22:21:28.503799 14075] Stored in cache: /home/ink/.cache/Nuitka/ccache/d/b/6a9cv07uf05gej9mj96878io1pus5ocR
+[2022-06-05T22:21:28.503985 14075] Adding result name to /home/ink/.cache/Nuitka/ccache/2/6/25vj2aq8acelccqcfoaiojkc24h5pbqM
+[2022-06-05T22:21:28.505024 14075] Using default compression level 1
+[2022-06-05T22:21:28.505690 14075] Result: cache miss
+[2022-06-05T22:21:28.505798 14075] Acquired lock /home/ink/.cache/Nuitka/ccache/2/stats.lock
+[2022-06-05T22:21:28.506106 14075] Releasing lock /home/ink/.cache/Nuitka/ccache/2/stats.lock
+[2022-06-05T22:21:28.506162 14075] Unlink /home/ink/.cache/Nuitka/ccache/2/stats.lock
+[2022-06-05T22:21:28.506218 14075] Acquired lock /home/ink/.cache/Nuitka/ccache/d/stats.lock
+[2022-06-05T22:21:28.506692 14075] Releasing lock /home/ink/.cache/Nuitka/ccache/d/stats.lock
+[2022-06-05T22:21:28.506740 14075] Unlink /home/ink/.cache/Nuitka/ccache/d/stats.lock
+[2022-06-05T22:21:28.506769 14075] Unlink /run/user/1000/ccache-tmp/tmp.stderr.qglRUt
+[2022-06-05T22:21:28.506782 14075] Unlink /run/user/1000/ccache-tmp/tmp.stdout.nK5UHs
+[2022-06-05T22:21:28.506793 14075] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stderr.hLqJLs
+[2022-06-05T22:21:28.506804 14075] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.zPDoRs.i
+[2022-06-05T22:21:28.506931 14075] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.zPDoRs
+[2022-06-05T22:21:28.584406 14092] === CCACHE 4.2 STARTED =========================================
+[2022-06-05T22:21:28.584406 14092] Config: (default) absolute_paths_in_stderr = false
+[2022-06-05T22:21:28.584406 14092] Config: (default) base_dir = 
+[2022-06-05T22:21:28.584406 14092] Config: (environment) cache_dir = /home/ink/.cache/Nuitka/ccache
+[2022-06-05T22:21:28.584406 14092] Config: (default) compiler = 
+[2022-06-05T22:21:28.584406 14092] Config: (default) compiler_check = mtime
+[2022-06-05T22:21:28.584406 14092] Config: (default) compiler_type = auto
+[2022-06-05T22:21:28.584406 14092] Config: (default) compression = true
+[2022-06-05T22:21:28.584406 14092] Config: (default) compression_level = 0
+[2022-06-05T22:21:28.584406 14092] Config: (default) cpp_extension = 
+[2022-06-05T22:21:28.584406 14092] Config: (default) debug = false
+[2022-06-05T22:21:28.584406 14092] Config: (default) debug_dir = 
+[2022-06-05T22:21:28.584406 14092] Config: (default) depend_mode = false
+[2022-06-05T22:21:28.584406 14092] Config: (default) direct_mode = true
+[2022-06-05T22:21:28.584406 14092] Config: (default) disable = false
+[2022-06-05T22:21:28.584406 14092] Config: (default) extra_files_to_hash = 
+[2022-06-05T22:21:28.584406 14092] Config: (default) file_clone = false
+[2022-06-05T22:21:28.584406 14092] Config: (default) hard_link = false
+[2022-06-05T22:21:28.584406 14092] Config: (default) hash_dir = true
+[2022-06-05T22:21:28.584406 14092] Config: (default) ignore_headers_in_manifest = 
+[2022-06-05T22:21:28.584406 14092] Config: (default) ignore_options = 
+[2022-06-05T22:21:28.584406 14092] Config: (default) inode_cache = false
+[2022-06-05T22:21:28.584406 14092] Config: (default) keep_comments_cpp = false
+[2022-06-05T22:21:28.584406 14092] Config: (default) limit_multiple = 0.8
+[2022-06-05T22:21:28.584406 14092] Config: (environment) log_file = /home/ink/ForPy/inkprint.build/ccache-14026.txt
+[2022-06-05T22:21:28.584406 14092] Config: (default) max_files = 0
+[2022-06-05T22:21:28.584406 14092] Config: (default) max_size = 5.0G
+[2022-06-05T22:21:28.584406 14092] Config: (default) path = 
+[2022-06-05T22:21:28.584406 14092] Config: (default) pch_external_checksum = false
+[2022-06-05T22:21:28.584406 14092] Config: (default) prefix_command = 
+[2022-06-05T22:21:28.584406 14092] Config: (default) prefix_command_cpp = 
+[2022-06-05T22:21:28.584406 14092] Config: (default) read_only = false
+[2022-06-05T22:21:28.584406 14092] Config: (default) read_only_direct = false
+[2022-06-05T22:21:28.584406 14092] Config: (default) recache = false
+[2022-06-05T22:21:28.584406 14092] Config: (default) run_second_cpp = true
+[2022-06-05T22:21:28.584406 14092] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-06-05T22:21:28.584406 14092] Config: (default) stats = true
+[2022-06-05T22:21:28.584406 14092] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-06-05T22:21:28.584406 14092] Config: (default) umask = 
+[2022-06-05T22:21:28.584546 14092] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledFunctionType.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src static_src/CompiledFunctionType.c
+[2022-06-05T22:21:28.584581 14092] Hostname: Ink
+[2022-06-05T22:21:28.584591 14092] Working directory: /home/ink/ForPy/inkprint.build
+[2022-06-05T22:21:28.584599 14092] Compiler type: gcc
+[2022-06-05T22:21:28.584725 14092] Source file: static_src/CompiledFunctionType.c
+[2022-06-05T22:21:28.584736 14092] Object file: static_src/CompiledFunctionType.o
+[2022-06-05T22:21:28.584763 14092] Trying direct lookup
+[2022-06-05T22:21:28.585064 14092] No manifest with name d21cd49n9abev0c18aopam1785dto6vre in the cache
+[2022-06-05T22:21:28.585187 14092] Running preprocessor
+[2022-06-05T22:21:28.585207 14092] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src -E static_src/CompiledFunctionType.c
+[2022-06-05T22:21:28.608500 14097] === CCACHE 4.2 STARTED =========================================
+[2022-06-05T22:21:28.608500 14097] Config: (default) absolute_paths_in_stderr = false
+[2022-06-05T22:21:28.608500 14097] Config: (default) base_dir = 
+[2022-06-05T22:21:28.608500 14097] Config: (environment) cache_dir = /home/ink/.cache/Nuitka/ccache
+[2022-06-05T22:21:28.608500 14097] Config: (default) compiler = 
+[2022-06-05T22:21:28.608500 14097] Config: (default) compiler_check = mtime
+[2022-06-05T22:21:28.608500 14097] Config: (default) compiler_type = auto
+[2022-06-05T22:21:28.608500 14097] Config: (default) compression = true
+[2022-06-05T22:21:28.608500 14097] Config: (default) compression_level = 0
+[2022-06-05T22:21:28.608500 14097] Config: (default) cpp_extension = 
+[2022-06-05T22:21:28.608500 14097] Config: (default) debug = false
+[2022-06-05T22:21:28.608500 14097] Config: (default) debug_dir = 
+[2022-06-05T22:21:28.608500 14097] Config: (default) depend_mode = false
+[2022-06-05T22:21:28.608500 14097] Config: (default) direct_mode = true
+[2022-06-05T22:21:28.608500 14097] Config: (default) disable = false
+[2022-06-05T22:21:28.608500 14097] Config: (default) extra_files_to_hash = 
+[2022-06-05T22:21:28.608500 14097] Config: (default) file_clone = false
+[2022-06-05T22:21:28.608500 14097] Config: (default) hard_link = false
+[2022-06-05T22:21:28.608500 14097] Config: (default) hash_dir = true
+[2022-06-05T22:21:28.608500 14097] Config: (default) ignore_headers_in_manifest = 
+[2022-06-05T22:21:28.608500 14097] Config: (default) ignore_options = 
+[2022-06-05T22:21:28.608500 14097] Config: (default) inode_cache = false
+[2022-06-05T22:21:28.608500 14097] Config: (default) keep_comments_cpp = false
+[2022-06-05T22:21:28.608500 14097] Config: (default) limit_multiple = 0.8
+[2022-06-05T22:21:28.608500 14097] Config: (environment) log_file = /home/ink/ForPy/inkprint.build/ccache-14026.txt
+[2022-06-05T22:21:28.608500 14097] Config: (default) max_files = 0
+[2022-06-05T22:21:28.608500 14097] Config: (default) max_size = 5.0G
+[2022-06-05T22:21:28.608500 14097] Config: (default) path = 
+[2022-06-05T22:21:28.608500 14097] Config: (default) pch_external_checksum = false
+[2022-06-05T22:21:28.608500 14097] Config: (default) prefix_command = 
+[2022-06-05T22:21:28.608500 14097] Config: (default) prefix_command_cpp = 
+[2022-06-05T22:21:28.608500 14097] Config: (default) read_only = false
+[2022-06-05T22:21:28.608500 14097] Config: (default) read_only_direct = false
+[2022-06-05T22:21:28.608500 14097] Config: (default) recache = false
+[2022-06-05T22:21:28.608500 14097] Config: (default) run_second_cpp = true
+[2022-06-05T22:21:28.608500 14097] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-06-05T22:21:28.608500 14097] Config: (default) stats = true
+[2022-06-05T22:21:28.608500 14097] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-06-05T22:21:28.608500 14097] Config: (default) umask = 
+[2022-06-05T22:21:28.608668 14097] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/CompiledGeneratorType.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src static_src/CompiledGeneratorType.c
+[2022-06-05T22:21:28.608682 14097] Hostname: Ink
+[2022-06-05T22:21:28.608691 14097] Working directory: /home/ink/ForPy/inkprint.build
+[2022-06-05T22:21:28.608698 14097] Compiler type: gcc
+[2022-06-05T22:21:28.608831 14097] Source file: static_src/CompiledGeneratorType.c
+[2022-06-05T22:21:28.608841 14097] Object file: static_src/CompiledGeneratorType.o
+[2022-06-05T22:21:28.608866 14097] Trying direct lookup
+[2022-06-05T22:21:28.609072 14097] No manifest with name 398f9tc34cnvd07mk1a8i4e34d470qtmi in the cache
+[2022-06-05T22:21:28.609175 14097] Running preprocessor
+[2022-06-05T22:21:28.609192 14097] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src -E static_src/CompiledGeneratorType.c
+[2022-06-05T22:21:28.730937 14097] Got result name from preprocessor
+[2022-06-05T22:21:28.731030 14097] No result with name fb9900h7l0p7v8ulpgjhvbmk91v7266f2 in the cache
+[2022-06-05T22:21:28.731047 14097] Running real compiler
+[2022-06-05T22:21:28.731109 14097] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src -c -fdiagnostics-color -o static_src/CompiledGeneratorType.o static_src/CompiledGeneratorType.c
+[2022-06-05T22:21:28.950025 14092] Got result name from preprocessor
+[2022-06-05T22:21:28.950129 14092] No result with name f0eco2cu2d1je8to00pg2o1j6es8g0nti in the cache
+[2022-06-05T22:21:28.950146 14092] Running real compiler
+[2022-06-05T22:21:28.950207 14092] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src -c -fdiagnostics-color -o static_src/CompiledFunctionType.o static_src/CompiledFunctionType.c
+[2022-06-05T22:21:29.252050 14097] Using default compression level 1
+[2022-06-05T22:21:29.252237 14097] Storing result static_src/CompiledGeneratorType.o
+[2022-06-05T22:21:29.252268 14097] Storing embedded file #0 .o (312496 bytes) from static_src/CompiledGeneratorType.o
+[2022-06-05T22:21:29.254675 14097] Stored in cache: /home/ink/.cache/Nuitka/ccache/f/b/9900h7l0p7v8ulpgjhvbmk91v7266f2R
+[2022-06-05T22:21:29.254783 14097] Adding result name to /home/ink/.cache/Nuitka/ccache/3/9/8f9tc34cnvd07mk1a8i4e34d470qtmiM
+[2022-06-05T22:21:29.255996 14097] Using default compression level 1
+[2022-06-05T22:21:29.256831 14097] Result: cache miss
+[2022-06-05T22:21:29.256971 14097] Acquired lock /home/ink/.cache/Nuitka/ccache/3/stats.lock
+[2022-06-05T22:21:29.257296 14097] Releasing lock /home/ink/.cache/Nuitka/ccache/3/stats.lock
+[2022-06-05T22:21:29.257358 14097] Unlink /home/ink/.cache/Nuitka/ccache/3/stats.lock
+[2022-06-05T22:21:29.257428 14097] Acquired lock /home/ink/.cache/Nuitka/ccache/f/stats.lock
+[2022-06-05T22:21:29.257694 14097] Releasing lock /home/ink/.cache/Nuitka/ccache/f/stats.lock
+[2022-06-05T22:21:29.257753 14097] Unlink /home/ink/.cache/Nuitka/ccache/f/stats.lock
+[2022-06-05T22:21:29.257787 14097] Unlink /run/user/1000/ccache-tmp/tmp.stderr.RgCPR9
+[2022-06-05T22:21:29.257802 14097] Unlink /run/user/1000/ccache-tmp/tmp.stdout.vukgL7
+[2022-06-05T22:21:29.257816 14097] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stderr.kOTvlb
+[2022-06-05T22:21:29.257828 14097] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.u6nHt9.i
+[2022-06-05T22:21:29.258012 14097] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.u6nHt9
+[2022-06-05T22:21:29.287328 14108] === CCACHE 4.2 STARTED =========================================
+[2022-06-05T22:21:29.287328 14108] Config: (default) absolute_paths_in_stderr = false
+[2022-06-05T22:21:29.287328 14108] Config: (default) base_dir = 
+[2022-06-05T22:21:29.287328 14108] Config: (environment) cache_dir = /home/ink/.cache/Nuitka/ccache
+[2022-06-05T22:21:29.287328 14108] Config: (default) compiler = 
+[2022-06-05T22:21:29.287328 14108] Config: (default) compiler_check = mtime
+[2022-06-05T22:21:29.287328 14108] Config: (default) compiler_type = auto
+[2022-06-05T22:21:29.287328 14108] Config: (default) compression = true
+[2022-06-05T22:21:29.287328 14108] Config: (default) compression_level = 0
+[2022-06-05T22:21:29.287328 14108] Config: (default) cpp_extension = 
+[2022-06-05T22:21:29.287328 14108] Config: (default) debug = false
+[2022-06-05T22:21:29.287328 14108] Config: (default) debug_dir = 
+[2022-06-05T22:21:29.287328 14108] Config: (default) depend_mode = false
+[2022-06-05T22:21:29.287328 14108] Config: (default) direct_mode = true
+[2022-06-05T22:21:29.287328 14108] Config: (default) disable = false
+[2022-06-05T22:21:29.287328 14108] Config: (default) extra_files_to_hash = 
+[2022-06-05T22:21:29.287328 14108] Config: (default) file_clone = false
+[2022-06-05T22:21:29.287328 14108] Config: (default) hard_link = false
+[2022-06-05T22:21:29.287328 14108] Config: (default) hash_dir = true
+[2022-06-05T22:21:29.287328 14108] Config: (default) ignore_headers_in_manifest = 
+[2022-06-05T22:21:29.287328 14108] Config: (default) ignore_options = 
+[2022-06-05T22:21:29.287328 14108] Config: (default) inode_cache = false
+[2022-06-05T22:21:29.287328 14108] Config: (default) keep_comments_cpp = false
+[2022-06-05T22:21:29.287328 14108] Config: (default) limit_multiple = 0.8
+[2022-06-05T22:21:29.287328 14108] Config: (environment) log_file = /home/ink/ForPy/inkprint.build/ccache-14026.txt
+[2022-06-05T22:21:29.287328 14108] Config: (default) max_files = 0
+[2022-06-05T22:21:29.287328 14108] Config: (default) max_size = 5.0G
+[2022-06-05T22:21:29.287328 14108] Config: (default) path = 
+[2022-06-05T22:21:29.287328 14108] Config: (default) pch_external_checksum = false
+[2022-06-05T22:21:29.287328 14108] Config: (default) prefix_command = 
+[2022-06-05T22:21:29.287328 14108] Config: (default) prefix_command_cpp = 
+[2022-06-05T22:21:29.287328 14108] Config: (default) read_only = false
+[2022-06-05T22:21:29.287328 14108] Config: (default) read_only_direct = false
+[2022-06-05T22:21:29.287328 14108] Config: (default) recache = false
+[2022-06-05T22:21:29.287328 14108] Config: (default) run_second_cpp = true
+[2022-06-05T22:21:29.287328 14108] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-06-05T22:21:29.287328 14108] Config: (default) stats = true
+[2022-06-05T22:21:29.287328 14108] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2022-06-05T22:21:29.287328 14108] Config: (default) umask = 
+[2022-06-05T22:21:29.287516 14108] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/InspectPatcher.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src static_src/InspectPatcher.c
+[2022-06-05T22:21:29.287535 14108] Hostname: Ink
+[2022-06-05T22:21:29.287544 14108] Working directory: /home/ink/ForPy/inkprint.build
+[2022-06-05T22:21:29.287552 14108] Compiler type: gcc
+[2022-06-05T22:21:29.287703 14108] Source file: static_src/InspectPatcher.c
+[2022-06-05T22:21:29.287739 14108] Object file: static_src/InspectPatcher.o
+[2022-06-05T22:21:29.287771 14108] Trying direct lookup
+[2022-06-05T22:21:29.287888 14108] No manifest with name 6cb1ndpfeggevops261f1nogpcmvgmjd4 in the cache
+[2022-06-05T22:21:29.287979 14108] Running preprocessor
+[2022-06-05T22:21:29.287995 14108] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src -E static_src/InspectPatcher.c
+[2022-06-05T22:21:29.530110 14108] Got result name from preprocessor
+[2022-06-05T22:21:29.530233 14108] No result with name 50f2hfs7m8rdat4tnl03kul7v5ocr1gn2 in the cache
+[2022-06-05T22:21:29.530260 14108] Running real compiler
+[2022-06-05T22:21:29.530355 14108] Executing /usr/bin/gcc -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O2 -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_LINKER -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.9 -I. -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/include -I/home/ink/.local/lib/python3.9/site-packages/nuitka/build/static_src -c -fdiagnostics-color -o static_src/InspectPatcher.o static_src/InspectPatcher.c
+[2022-06-05T22:21:29.728636 14108] Using default compression level 1
+[2022-06-05T22:21:29.728780 14108] Storing result static_src/InspectPatcher.o
+[2022-06-05T22:21:29.728803 14108] Storing embedded file #0 .o (39096 bytes) from static_src/InspectPatcher.o
+[2022-06-05T22:21:29.729300 14108] Stored in cache: /home/ink/.cache/Nuitka/ccache/5/0/f2hfs7m8rdat4tnl03kul7v5ocr1gn2R
+[2022-06-05T22:21:29.729388 14108] Adding result name to /home/ink/.cache/Nuitka/ccache/6/c/b1ndpfeggevops261f1nogpcmvgmjd4M
+[2022-06-05T22:21:29.730690 14108] Using default compression level 1
+[2022-06-05T22:21:29.731479 14108] Result: cache miss
+[2022-06-05T22:21:29.731616 14108] Acquired lock /home/ink/.cache/Nuitka/ccache/6/stats.lock
+[2022-06-05T22:21:29.731848 14108] Releasing lock /home/ink/.cache/Nuitka/ccache/6/stats.lock
+[2022-06-05T22:21:29.731910 14108] Unlink /home/ink/.cache/Nuitka/ccache/6/stats.lock
+[2022-06-05T22:21:29.731969 14108] Acquired lock /home/ink/.cache/Nuitka/ccache/5/stats.lock
+[2022-06-05T22:21:29.732156 14108] Releasing lock /home/ink/.cache/Nuitka/ccache/5/stats.lock
+[2022-06-05T22:21:29.732197 14108] Unlink /home/ink/.cache/Nuitka/ccache/5/stats.lock
+[2022-06-05T22:21:29.732228 14108] Unlink /run/user/1000/ccache-tmp/tmp.stderr.JhtqNY
+[2022-06-05T22:21:29.732243 14108] Unlink /run/user/1000/ccache-tmp/tmp.stdout.nqIb2Y
+[2022-06-05T22:21:29.732257 14108] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stderr.A8nfRZ
+[2022-06-05T22:21:29.732270 14108] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.Jbvoy0.i
+[2022-06-05T22:21:29.732443 14108] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.Jbvoy0
+[2022-06-05T22:21:32.118943 14092] Using default compression level 1
+[2022-06-05T22:21:32.119058 14092] Storing result static_src/CompiledFunctionType.o
+[2022-06-05T22:21:32.119072 14092] Storing embedded file #0 .o (2875992 bytes) from static_src/CompiledFunctionType.o
+[2022-06-05T22:21:32.133232 14092] Stored in cache: /home/ink/.cache/Nuitka/ccache/f/0/eco2cu2d1je8to00pg2o1j6es8g0ntiR
+[2022-06-05T22:21:32.133318 14092] Adding result name to /home/ink/.cache/Nuitka/ccache/d/2/1cd49n9abev0c18aopam1785dto6vreM
+[2022-06-05T22:21:32.134452 14092] Using default compression level 1
+[2022-06-05T22:21:32.135127 14092] Result: cache miss
+[2022-06-05T22:21:32.135222 14092] Acquired lock /home/ink/.cache/Nuitka/ccache/d/stats.lock
+[2022-06-05T22:21:32.135394 14092] Releasing lock /home/ink/.cache/Nuitka/ccache/d/stats.lock
+[2022-06-05T22:21:32.135425 14092] Unlink /home/ink/.cache/Nuitka/ccache/d/stats.lock
+[2022-06-05T22:21:32.135458 14092] Acquired lock /home/ink/.cache/Nuitka/ccache/f/stats.lock
+[2022-06-05T22:21:32.135564 14092] Releasing lock /home/ink/.cache/Nuitka/ccache/f/stats.lock
+[2022-06-05T22:21:32.135591 14092] Unlink /home/ink/.cache/Nuitka/ccache/f/stats.lock
+[2022-06-05T22:21:32.135613 14092] Unlink /run/user/1000/ccache-tmp/tmp.stderr.GPUjdN
+[2022-06-05T22:21:32.135623 14092] Unlink /run/user/1000/ccache-tmp/tmp.stdout.RK5ZxL
+[2022-06-05T22:21:32.135634 14092] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stderr.OGzxmK
+[2022-06-05T22:21:32.135643 14092] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.bBuSnN.i
+[2022-06-05T22:21:32.136108 14092] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.bBuSnN
